@@ -1,11 +1,11 @@
-package com.baeldung.crud.repositories;
+package com.cts.crud.repositories;
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.baeldung.crud.entities.Student;
+import com.cts.crud.entities.Student;
 
 @Repository
 public interface UserRepository extends CrudRepository<Student, Long> {

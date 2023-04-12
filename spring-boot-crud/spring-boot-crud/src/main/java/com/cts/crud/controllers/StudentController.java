@@ -1,4 +1,4 @@
-package com.baeldung.crud.controllers;
+package com.cts.crud.controllers;
 
 import javax.validation.Valid;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.baeldung.crud.entities.Student;
-import com.baeldung.crud.service.StudentService;
+import com.cts.crud.entities.Student;
+import com.cts.crud.service.StudentService;
 
 @Controller
 public class StudentController {

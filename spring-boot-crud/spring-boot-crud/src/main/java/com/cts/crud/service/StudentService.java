@@ -1,12 +1,12 @@
-package com.baeldung.crud.service;
+package com.cts.crud.service;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.baeldung.crud.entities.Student;
-import com.baeldung.crud.repositories.UserRepository;
+import com.cts.crud.entities.Student;
+import com.cts.crud.repositories.UserRepository;
 
 @Service
 public class StudentService {
